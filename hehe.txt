@@ -2411,9 +2411,9 @@ function Luna:CreateWindow(WindowSettings)
 						game.Players.LocalPlayer:Kick("No Attempts Remaining")
 						game:Shutdown()
 					end
-	script_key = KeySystem.Input.InputBox.Text
-Luna:Destroy()
-               loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/931b47780b67616011da2614ce91ad19.lua"))()
+					script_key = KeySystem.Input.InputBox.Text
+					Luna:Destroy()
+               		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/931b47780b67616011da2614ce91ad19.lua"))()
 
 					AttemptsRemaining = AttemptsRemaining - 1
 					task.wait(0.4)
