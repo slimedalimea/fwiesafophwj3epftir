@@ -2463,6 +2463,7 @@ function Luna:CreateWindow(WindowSettings)
 					hdfghfdhfdh = KeySystem.Input.InputBox.Text
 					script_key = hdfghfdhfdh;
                     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/931b47780b67616011da2614ce91ad19.lua"))()
+					Luna:Destroy()
 					AttemptsRemaining = AttemptsRemaining - 1
 					task.wait(0.4)
 					KeySystem.Input.InputBox.Text = ""
